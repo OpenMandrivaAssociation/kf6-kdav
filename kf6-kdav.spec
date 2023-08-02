@@ -1,6 +1,6 @@
 %define libname %mklibname KF6DAV
 %define devname %mklibname KF6DAV -d
-%define git 20230726
+%define git 20230802
 
 Name: kf6-kdav
 Version: 5.240.0
