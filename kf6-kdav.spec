@@ -1,6 +1,6 @@
 %define libname %mklibname KF6DAV
 %define devname %mklibname KF6DAV -d
-%define git 20230927
+%define git 20231005
 
 Name: kf6-kdav
 Version: 5.240.0
@@ -76,7 +76,6 @@ DAV protocol implementation with KJobs
 %files -n %{devname}
 %{_includedir}/KF6/KDAV
 %{_libdir}/cmake/KF6DAV
-%{_qtdir}/mkspecs/modules/qt_KDAV.pri
 %{_qtdir}/doc/KF6DAV.*
 
 %files -n %{libname}
