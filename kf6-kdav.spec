@@ -2,10 +2,10 @@
 
 %define libname %mklibname KF6DAV
 %define devname %mklibname KF6DAV -d
-#define git 20231103
+%define git 20240217
 
 Name: kf6-kdav
-Version: 5.249.0
+Version: 5.250.0
 Release: %{?git:0.%{git}.}1
 %if 0%{?git:1}
 Source0: https://invent.kde.org/frameworks/kdav/-/archive/master/kdav-master.tar.bz2#/kdav-%{git}.tar.bz2
