@@ -6,7 +6,7 @@
 #define git 20240217
 
 Name: kf6-kdav
-Version: 6.14.0
+Version: 6.15.0
 Release: %{?git:0.%{git}.}1
 %if 0%{?git:1}
 Source0: https://invent.kde.org/frameworks/kdav/-/archive/master/kdav-master.tar.bz2#/kdav-%{git}.tar.bz2
@@ -82,7 +82,6 @@ DAV protocol implementation with KJobs
 %files -n %{devname}
 %{_includedir}/KF6/KDAV
 %{_libdir}/cmake/KF6DAV
-%{_qtdir}/doc/KF6DAV.*
 
 %files -n %{libname}
 %{_libdir}/libKF6DAV.so*
